@@ -57,7 +57,7 @@ proof
   assume x in {};
   hence thesis by XBOOLE_0:def 1;
 end;
-aaa
+
 theorem
   for X being set holds X \ {} = X
 proof
