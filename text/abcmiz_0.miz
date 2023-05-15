@@ -174,7 +174,7 @@ definition
   attr T is Mizar-widening-like means
   T is sup-Semilattice & T is Noetherian;
 end;
-aaa
+
 registration
   cluster Mizar-widening-like -> Noetherian with_suprema upper-bounded for
 Poset;
