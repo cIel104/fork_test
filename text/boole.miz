@@ -19,7 +19,7 @@ environ
  constructors TARSKI, XBOOLE_0;
  definitions XBOOLE_0, TARSKI;
  equalities XBOOLE_0;
- expansions TARSKI;
+ expansions TARSKI;aaaaaa
  theorems XBOOLE_0, TARSKI;
 
 begin
@@ -48,7 +48,7 @@ proof
 end;
 
 theorem
-            for X being set holds X /\ {} = {}
+  for X being set holds X /\ {} = {}
 proof
   let X be set;
            thus X /\ {} c= {}
@@ -57,7 +57,7 @@ proof
   assume x in {};
   hence thesis by XBOOLE_0:def 1;
 end;
-aaa
+
 theorem
   for X being set holds X \ {} = X
 proof
@@ -69,7 +69,7 @@ A1: not x in {} by XBOOLE_0:def 1;
   assume x in X;
   hence thesis by A1,XBOOLE_0:def 5;
 end;
-aaa
+
 theorem
   for X being set holds {} \ X = {}
 proof
