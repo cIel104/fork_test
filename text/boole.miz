@@ -19,7 +19,7 @@ environ
  constructors TARSKI, XBOOLE_0;
  definitions XBOOLE_0, TARSKI;
  equalities XBOOLE_0;
- expansions TARSKI;aaaaaaa
+ expansions TARSKI;
  theorems XBOOLE_0, TARSKI;
 
 begin
@@ -32,7 +32,7 @@ begin
 :: Statements which cannot be expressed in Mizar language are commented out.
 
 theorem
-  for X being set holds X \/ {} = X
+               for X being set holds X \/ {} = X
 proof
   let X be set;
   thus X \/ {} c= X
