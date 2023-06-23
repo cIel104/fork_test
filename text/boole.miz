@@ -18,7 +18,7 @@ environ
  notations TARSKI, XBOOLE_0;
  constructors TARSKI, XBOOLE_0;
  definitions XBOOLE_0, TARSKI;
- equalities XBOOLE_0;
+ equalities XBOOLE_0;aaa
  expansions TARSKI;
  theorems XBOOLE_0, TARSKI;
 
