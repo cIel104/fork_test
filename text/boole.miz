@@ -45,7 +45,7 @@ proof
   let x be object;
   assume x in X;
   hence thesis by XBOOLE_0:def 3;
-end;
+
 
 theorem
             for X being set holds X /\ {} = {}
