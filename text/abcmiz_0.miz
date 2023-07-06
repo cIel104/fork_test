@@ -54,7 +54,7 @@ end;
 definition
   let T be RelStr;
   mode type of T is Element of T;
-
+end;
 
 definition
   let T be RelStr;
