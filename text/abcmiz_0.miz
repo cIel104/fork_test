@@ -49,7 +49,7 @@ begin :: Semilattice of type widening
 registration
   cluster reflexive -> complete for 1-element RelStr;
   coherence;
-
+end;
 
 definition
   let T be RelStr;
