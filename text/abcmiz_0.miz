@@ -51,7 +51,7 @@ registration
   coherence;
 end;
 
-definition
+::definition
   let T be RelStr;
   mode type of T is Element of T;
 end;
