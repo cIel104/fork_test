@@ -57,7 +57,7 @@ begin :: Preliminaries
 reserve S, T, W, Y for RealNormSpace;
 reserve f, f1, f2 for PartFunc of S, T;
 reserve Z for Subset of S;
-reserve i, n for Nat;
+reserve i, n for Nat;    
 
 theorem Th010:
 
@@ -2259,7 +2259,7 @@ registration
     take f;
     thus thesis by A1;
   end;
-end;
+end;   
 
 definition
   let E, F, G be RealNormSpace;
