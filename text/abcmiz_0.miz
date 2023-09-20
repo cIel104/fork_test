@@ -52,7 +52,7 @@ registration
 end;
 
 definition
-        let T be RelStr;
+  let T be RelStr;
   mode type of T is Element of T;
 end;
 
@@ -85,7 +85,7 @@ A3: field R c= (the carrier of S) \/ the carrier of S by RELSET_1:8;
     hence thesis by A2,A3,ZFMISC_1:def 10;
   end;
 end;
-
+aaa
 definition
   let T be non empty RelStr;
   redefine attr T is Noetherian means
