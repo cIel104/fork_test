@@ -47,7 +47,7 @@ environ
 begin :: Semilattice of type widening
 
 registration
-  cluster reflexive -> complete for 1-element RelStr;
+  　　　　　　cluster reflexive -> complete for 1-element RelStr;
   coherence;
 end;
 
