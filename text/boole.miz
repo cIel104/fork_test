@@ -47,6 +47,7 @@ proof
   hence thesis by XBOOLE_0:def 3;
 end;
 aaaaa
+
 theorem
   for X being set holds X /\ {} = {}
 proof
@@ -58,28 +59,28 @@ proof
   hence thesis by XBOOLE_0:def 1;
 end;
 
-                theorem
-for X being set holds X \ {} = X
+theorem
+  for X being set holds X \ {} = X
 proof
-        let X be set;
-                    thus X \ {} c= X
-by XBOOLE_0:def 5;
-      let x be object;
-                A1: not x in {} by XBOOLE_0:def 1;
-assume x in X;
-                hence thesis by A1,XBOOLE_0:def 5;
+  let X be set;
+  thus X \ {} c= X
+  by XBOOLE_0:def 5;
+  let x be object;
+  A1: not x in {} by XBOOLE_0:def 1;
+  assume x in X;
+  hence thesis by A1, XBOOLE_0:def 5;
 end;
 
 theorem
-            for X being set holds {} \ X = {}
+  for X being set holds {} \ X = {}
 proof
-                        let X be set;
-thus {} \ X c= {}
+  let X be set;
+  thus {} \ X c= {}
   by XBOOLE_0:def 5;
-                let x be object;
-        assume x in {};
-hence thesis by XBOOLE_0:def 1;
-        end;
+  let x be object;
+  assume x in {};
+  hence thesis by XBOOLE_0:def 1;
+end;
 
 theorem
   for X being set holds X \+\ {} = X
@@ -90,8 +91,8 @@ proof
     let x be object;
     assume x in X \+\ {};
     then
-A1: x in X \ {} or x in {} \ X by XBOOLE_0:def 3;
-    per cases by A1,XBOOLE_0:def 5;
+    A1: x in X \ {} or x in {} \ X by XBOOLE_0:def 3;
+    per cases by A1, XBOOLE_0:def 5;
     suppose
       x in X & not x in {};
       hence thesis;
@@ -102,19 +103,19 @@ A1: x in X \ {} or x in {} \ X by XBOOLE_0:def 3;
     end;
   end;
   let x be object;
-A2: not x in {} by XBOOLE_0:def 1;
+  A2: not x in {} by XBOOLE_0:def 1;
   assume x in X;
-  then x in X \ {} by A2,XBOOLE_0:def 5;
+  then x in X \ {} by A2, XBOOLE_0:def 5;
   hence thesis by XBOOLE_0:def 3;
 end;
 
-reserve x,X for set;
+reserve x, X for set;
 
 Lm1: X is empty implies X = {}
 proof
   assume not ex x being object st x in X;
   then for x being object holds x in {} iff x in X by XBOOLE_0:def 1;
-  hence thesis by TARSKI:2;
+  hence thesis by TARSKI: 2;
 end;
 
 theorem
@@ -128,12 +129,12 @@ theorem
 proof
   let X, Y be set;
   assume that
-A1: X is empty and
-A2: X <> Y;
-  X = {} by A1,Lm1;
-  hence thesis by A2,Lm1;
+  A1: X is empty and
+  A2: X <> Y;
+  X = {} by A1, Lm1;
+  hence thesis by A2, Lm1;
 end;
- 
+
 ::theorem :: equality of 0 and {} is assumed
 ::  0 is empty;
 ::theorem
