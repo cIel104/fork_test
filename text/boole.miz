@@ -61,22 +61,22 @@ end;
                 theorem
 for X being set holds X \ {} = X
 proof
-        let X be set;
-                    thus X \ {} c= X
+          let X be set;
+                                        thus X \ {} c= X
 by XBOOLE_0:def 5;
-      let x be object;
-                A1: not x in {} by XBOOLE_0:def 1;
+            let x be object;
+                      A1: not x in {} by XBOOLE_0:def 1;
 assume x in X;
-                hence thesis by A1,XBOOLE_0:def 5;
+                            hence thesis by A1,XBOOLE_0:def 5;
 end;
 
 theorem
-            for X being set holds {} \ X = {}
+                           for X being set holds {} \ X = {}
 proof
                         let X be set;
 thus {} \ X c= {}
   by XBOOLE_0:def 5;
-                let x be object;
+                        let x be object;
         assume x in {};
 hence thesis by XBOOLE_0:def 1;
         end;
