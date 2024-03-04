@@ -90,10 +90,10 @@ definition
   let T be non empty RelStr;
   redefine attr T is Noetherian means
   :Def2:
-  for A being non empty Subset of T
-  ex a being Element of T st a in A & for b being Element of T st b in A holds
-  not a < b;
-  compatibility
+      for A being non empty Subset of T
+      ex a being Element of T st a in A & for b being Element of T st b in A holds
+      not a < b;
+      compatibility
   proof
     set R = the InternalRel of T;
     thus T is Noetherian implies for A being non empty Subset of T ex a being
