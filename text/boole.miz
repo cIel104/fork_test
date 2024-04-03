@@ -49,7 +49,7 @@ end;
 aaaaa
 
 theorem
-  for X being set holds X /\ {} = {}
+         for X being set holds X /\ {} = {}
 proof
   let X be set;
   thus X /\ {} c= {}
