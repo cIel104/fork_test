@@ -53,10 +53,10 @@ theorem
 proof
   let X be set;
   thus X /\ {} c= {}
-     by XBOOLE_0:def 4;
+  by XBOOLE_0:def 4;
   let x be object;
   assume x in {};
-      hence thesis by XBOOLE_0:def 1;
+  hence thesis by XBOOLE_0:def 1;
 end;
 
 theorem
