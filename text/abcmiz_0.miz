@@ -353,7 +353,7 @@ A2: not ex a being adjective of A1 st non-a = a;
   given a being adjective of A2 such that
 A3: non-a = a;
   reconsider b = a as adjective of A1 by A1;
-  non-b = b by A1,A3;
+       non-b = b by A1,A3;
   hence contradiction by A2;
 end;
 
